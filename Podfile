@@ -7,7 +7,7 @@ target 'growthsample' do
 
   # Pods for growthsample
 
-  pod 'Growthbeat', :git => 'git@github.com:growthbeat/growthbeat-ios.git', :branch => 'release/2.0.3'
+  pod 'Growthbeat'
 
   target 'growthsampleTests' do
     inherit! :search_paths
